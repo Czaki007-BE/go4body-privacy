@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+  <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Go4Body – Privacy Policy / Polityka Prywatności</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: #f5f5f7;
+        color: #1d1d1f;
+        line-height: 1.7;
+      }
+      header {
+        background: #1c1c1e;
+        color: #fff;
+        padding: 32px 24px 24px;
+        text-align: center;
+      }
+      header h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+      header p  { color: #aeaeb2; font-size: 14px; }
+      .lang-toggle {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        padding: 20px;
+        background: #fff;
+        border-bottom: 1px solid #e5e5ea;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+      .lang-toggle button {
+        padding: 8px 24px;
+        border: 2px solid #1c1c1e;
+        border-radius: 20px;
+        background: transparent;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all .15s;
+      }
+      .lang-toggle button.active {
+        background: #1c1c1e;
+        color: #fff;
+      }
+      main {
+        max-width: 760px;
+        margin: 32px auto;
+        padding: 0 24px 64px;
+      }
+      section { display: none; }
+      section.visible { display: block; }
+      .card {
+        background: #fff;
+        border-radius: 16px;
+        padding: 32px;
+        margin-bottom: 16px;
+        box-shadow: 0 1px 4px rgba(0,0,0,.06);
+      }
+      h2 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 12px;
+        color: #1c1c1e;
+      }
+      h3 {
+        font-size: 15px;
+        font-weight: 600;
+        margin: 18px 0 6px;
+        color: #3a3a3c;
+      }
+      p  { font-size: 15px; color: #3a3a3c; margin-bottom: 10px; }
+      ul { padding-left: 20px; margin-bottom: 10px; }
+      li { font-size: 15px; color: #3a3a3c; margin-bottom: 4px; }
+      a  { color: #007aff; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .updated { font-size: 13px; color: #8e8e93; margin-top: 4px; }
+      .highlight {
+        background: #f2f2f7;
+        border-left: 4px solid #007aff;
+        border-radius: 8px;
+        padding: 14px 16px;
+        margin: 12px 0;
+        font-size: 14px;
+        color: #3a3a3c;
+      }
+    </style>
+  </head>
+  <body>
+
+  <header>
+    <h1>Go4Body</h1>
+    <p>Privacy Policy / Polityka Prywatności</p>
+  </header>
+
+  <div class="lang-toggle">
+    <button id="btn-pl" class="active" onclick="setLang('pl')">🇵🇱 Polski</button>
+    <button id="btn-en" onclick="setLang('en')">🇬🇧 English</button>
+  </div>
+
+  <main>
+
+    <section id="pl" class="visible">
+
+      <div class="card">
+        <h2>Polityka Prywatności</h2>
+        <p class="updated">Ostatnia aktualizacja: 14 czerwca 2026 r.</p>
+        <p style="margin-top:14px;">
+          Niniejsza Polityka Prywatności opisuje, w jaki sposób aplikacja <strong>Go4Body</strong>
+          gromadzi, przetwarza i chroni Twoje dane osobowe. Korzystając z aplikacji, akceptujesz
+          zasady opisane poniżej.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>1. Administrator danych</h2>
+        <p>Administratorem Twoich danych osobowych jest:</p>
+        <p>
+          <strong>Go4Body</strong><br/>
+          Email: <a href="mailto:Nowacki.ch@gmail.com">Nowacki.ch@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>2. Jakie dane zbieramy</h2>
+
+        <h3>Dane konta</h3>
+        <ul>
+          <li>Imię i nazwisko (opcjonalne)</li>
+          <li>Adres e-mail (przy logowaniu)</li>
+          <li>Cel treningowy, parametry ciała (waga, wzrost, wiek)</li>
+          <li>Preferencje żywieniowe i diety</li>
+        </ul>
+
+        <h3>Dane zdrowotne (Android — Health Connect)</h3>
+        <div class="highlight">
+          Aplikacja może odczytywać dane z <strong>Health Connect</strong> wyłącznie po
+          wyrażeniu przez Ciebie wyraźnej zgody. Odczytujemy:
+          <ul style="margin-top:8px;">
+            <li>Liczba kroków</li>
+            <li>Sen (czas trwania)</li>
+            <li>Tętno (średnie BPM)</li>
+            <li>Masa ciała (ostatni pomiar)</li>
+            <li>Tkanka tłuszczowa % (ostatni pomiar)</li>
+            <li>Kalorie całkowite spalone</li>
+            <li>Kalorie aktywne (z aktywności)</li>
+            <li>Dystans (w metrach)</li>
+            <li>Sesje treningowe (łączny czas)</li>
+          </ul>
+          Dane zdrowotne <strong>nie są udostępniane osobom trzecim</strong> i służą wyłącznie
+          do personalizacji Twojego planu treningowego i żywieniowego w aplikacji.
+        </div>
+
+        <h3>Zdjęcia i media</h3>
+        <ul>
+          <li>Zdjęcia profilowe (avatar trenera / użytkownika) — przechowywane w Supabase Storage</li>
+          <li>Zdjęcia posiłków (opcjonalne, do analizy diety)</li>
+        </ul>
+
+        <h3>Dane urządzenia</h3>
+        <ul>
+          <li>System operacyjny i wersja aplikacji (do diagnostyki błędów)</li>
+          <li>Nie zbieramy danych lokalizacji ani identyfikatorów reklamowych</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>3. Cel i podstawa przetwarzania</h2>
+        <ul>
+          <li><strong>Realizacja usługi</strong> — prowadzenie dziennika treningów, generowanie planów, analiza postępów</li>
+          <li><strong>Personalizacja</strong> — dostosowanie zaleceń do Twoich celów i danych zdrowotnych</li>
+          <li><strong>Bezpieczeństwo</strong> — ochrona konta i wykrywanie nadużyć</li>
+        </ul>
+        <p>
+          Podstawą prawną przetwarzania jest wykonanie umowy (art. 6 ust. 1 lit. b RODO)
+          oraz Twoja zgoda dla danych zdrowotnych (art. 9 ust. 2 lit. a RODO).
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>4. Przechowywanie danych</h2>
+        <p>
+          Dane konta i treści aplikacji przechowujemy na serwerach <strong>Supabase</strong>
+          (infrastruktura w UE). Dane zdrowotne pobierane z Health Connect są przetwarzane
+          lokalnie na urządzeniu i synchronizowane z Twoim kontem wyłącznie gdy wyrazisz na to zgodę.
+        </p>
+        <p>
+          Dane przechowujemy przez czas trwania konta. Po usunięciu konta dane są kasowane
+          w ciągu 30 dni.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>5. Udostępnianie danych</h2>
+        <p>
+          <strong>Nie sprzedajemy</strong> Twoich danych. Nie wyświetlamy reklam. Dane nie są
+          udostępniane podmiotom trzecim w celach marketingowych.
+        </p>
+        <p>Podmioty przetwarzające dane w naszym imieniu:</p>
+        <ul>
+          <li><strong>Supabase Inc.</strong> — baza danych i storage (DPA zgodne z RODO)</li>
+          <li><strong>Anthropic / OpenAI</strong> — modele AI używane do generowania planów (dane są anonimizowane przed wysłaniem)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>6. Twoje prawa</h2>
+        <p>Na podstawie RODO przysługują Ci prawa do:</p>
+        <ul>
+          <li>Dostępu do swoich danych</li>
+          <li>Sprostowania nieprawidłowych danych</li>
+          <li>Usunięcia danych („prawo do bycia zapomnianym")</li>
+          <li>Przenoszenia danych</li>
+          <li>Cofnięcia zgody na przetwarzanie danych zdrowotnych w dowolnym momencie</li>
+        </ul>
+        <p>
+          Aby skorzystać z tych praw, skontaktuj się z nami:
+          <a href="mailto:Nowacki.ch@gmail.com">Nowacki.ch@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>7. Uprawnienia aplikacji</h2>
+        <ul>
+          <li><strong>CAMERA</strong> — do robienia zdjęć profilowych i posiłków</li>
+          <li><strong>RECORD_AUDIO</strong> — do funkcji głosowych (komenda głosowa)</li>
+          <li><strong>INTERNET</strong> — synchronizacja danych z serwerem</li>
+          <li><strong>Health Connect</strong> — dane zdrowotne (tylko po wyrażeniu zgody)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>8. Dzieci</h2>
+        <p>
+          Aplikacja Go4Body jest przeznaczona dla osób, które ukończyły <strong>16 lat</strong>.
+          Nie zbieramy świadomie danych od osób poniżej tego wieku.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>9. Zmiany polityki</h2>
+        <p>
+          O wszelkich istotnych zmianach Polityki Prywatności poinformujemy Cię poprzez
+          powiadomienie w aplikacji lub e-mail. Data ostatniej aktualizacji widnieje na górze
+          tego dokumentu.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>10. Kontakt</h2>
+        <p>
+          W razie pytań dotyczących prywatności skontaktuj się z nami:<br/>
+          <a href="mailto:Nowacki.ch@gmail.com">Nowacki.ch@gmail.com</a>
+        </p>
+      </div>
+
+    </section>
+
+    <section id="en">
+
+      <div class="card">
+        <h2>Privacy Policy</h2>
+        <p class="updated">Last updated: June 14, 2026</p>
+        <p style="margin-top:14px;">
+          This Privacy Policy describes how the <strong>Go4Body</strong> application collects,
+          processes, and protects your personal data. By using the app, you agree to the
+          practices described below.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>1. Data Controller</h2>
+        <p>The controller of your personal data is:</p>
+        <p>
+          <strong>Go4Body</strong><br/>
+          Email: <a href="mailto:Nowacki.ch@gmail.com">Nowacki.ch@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>2. Data We Collect</h2>
+
+        <h3>Account Data</h3>
+        <ul>
+          <li>Name (optional)</li>
+          <li>Email address (for login)</li>
+          <li>Fitness goal, body parameters (weight, height, age)</li>
+          <li>Dietary preferences</li>
+        </ul>
+
+        <h3>Health Data (Android — Health Connect)</h3>
+        <div class="highlight">
+          The app may read data from <strong>Health Connect</strong> only after you grant
+          explicit permission. We read:
+          <ul style="margin-top:8px;">
+            <li>Step count</li>
+            <li>Sleep (duration)</li>
+            <li>Heart rate (average BPM)</li>
+            <li>Body weight (latest measurement)</li>
+            <li>Body fat percentage (latest measurement)</li>
+            <li>Total calories burned</li>
+            <li>Active calories (from physical activity)</li>
+            <li>Distance (in metres)</li>
+            <li>Exercise sessions (total duration)</li>
+          </ul>
+          Health data is <strong>never shared with third parties</strong> and is used solely
+          to personalize your training and nutrition plan within the app.
+        </div>
+
+        <h3>Photos and Media</h3>
+        <ul>
+          <li>Profile photos (coach / user avatar) — stored in Supabase Storage</li>
+          <li>Meal photos (optional, for diet analysis)</li>
+        </ul>
+
+        <h3>Device Data</h3>
+        <ul>
+          <li>Operating system and app version (for crash diagnostics)</li>
+          <li>We do not collect location data or advertising identifiers</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>3. Purpose and Legal Basis</h2>
+        <ul>
+          <li><strong>Service delivery</strong> — workout logging, plan generation, progress tracking</li>
+          <li><strong>Personalization</strong> — tailoring recommendations to your goals and health data</li>
+          <li><strong>Security</strong> — account protection and abuse detection</li>
+        </ul>
+        <p>
+          The legal basis for processing is the performance of a contract (Art. 6(1)(b) GDPR)
+          and your consent for health data (Art. 9(2)(a) GDPR).
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>4. Data Storage</h2>
+        <p>
+          Account data and app content are stored on <strong>Supabase</strong> servers
+          (EU infrastructure). Health data read from Health Connect is processed locally
+          on the device and synced to your account only with your consent.
+        </p>
+        <p>
+          Data is retained for as long as your account is active. Upon account deletion,
+          data is erased within 30 days.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>5. Data Sharing</h2>
+        <p>
+          We <strong>do not sell</strong> your data. We display no ads. Data is not shared
+          with third parties for marketing purposes.
+        </p>
+        <p>Sub-processors acting on our behalf:</p>
+        <ul>
+          <li><strong>Supabase Inc.</strong> — database and storage (GDPR-compliant DPA)</li>
+          <li><strong>Anthropic / OpenAI</strong> — AI models for plan generation (data is anonymised before transmission)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>6. Your Rights</h2>
+        <p>Under GDPR you have the right to:</p>
+        <ul>
+          <li>Access your personal data</li>
+          <li>Rectify inaccurate data</li>
+          <li>Erase your data ("right to be forgotten")</li>
+          <li>Data portability</li>
+          <li>Withdraw consent for health data processing at any time</li>
+        </ul>
+        <p>
+          To exercise these rights, contact us at:
+          <a href="mailto:Nowacki.ch@gmail.com">Nowacki.ch@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>7. App Permissions</h2>
+        <ul>
+          <li><strong>CAMERA</strong> — for taking profile and meal photos</li>
+          <li><strong>RECORD_AUDIO</strong> — for voice command features</li>
+          <li><strong>INTERNET</strong> — for syncing data with the server</li>
+          <li><strong>Health Connect</strong> — health data (only after explicit consent)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>8. Children</h2>
+        <p>
+          Go4Body is intended for users aged <strong>16 and over</strong>.
+          We do not knowingly collect data from anyone below this age.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>9. Policy Changes</h2>
+        <p>
+          We will notify you of any material changes to this Privacy Policy via an in-app
+          notification or email. The date of the last update is shown at the top of this document.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>10. Contact</h2>
+        <p>
+          For any privacy-related questions, contact us at:<br/>
+          <a href="mailto:Nowacki.ch@gmail.com">Nowacki.ch@gmail.com</a>
+        </p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script>
+    function setLang(lang) {
+      document.getElementById('pl').classList.toggle('visible', lang === 'pl');
+      document.getElementById('en').classList.toggle('visible', lang === 'en');
+      document.getElementById('btn-pl').classList.toggle('active', lang === 'pl');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      document.documentElement.lang = lang;
+    }
+  </script>
+
+  </body>
+  </html>
